@@ -1,5 +1,2 @@
-# react-boilerplate
+# CI/CD sample app
 
-Status
-------
-![lint](https://github.com/mloginov/react-boilerplate/workflows/lint/badge.svg)
