@@ -6,17 +6,15 @@
   },
   "extends": [
     "airbnb",
+    "prettier",
     "plugin:import/errors",
     "plugin:import/warnings"
   ],
   "parserOptions": {
-    "ecmaFeatures": {
-      "jsx": true
-    },
+    "ecmaFeatures": {},
     "ecmaVersion": 11,
     "sourceType": "module"
   },
-  "plugins": ["prettier"],
   "rules": {
     "semi":  ["error", "never"],
     "comma-dangle": ["off"],
