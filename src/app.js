@@ -1,4 +1,4 @@
-import './styles/app.scss'
+import './styles/main.css'
 
 const operators = ['+', '-', '/', '*']
 const equal = '='

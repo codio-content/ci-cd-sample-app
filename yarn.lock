@@ -6689,13 +6689,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"klona@npm:^2.0.4":
-  version: 2.0.5
-  resolution: "klona@npm:2.0.5"
-  checksum: 0fa5dada3d91fdd5959094a5f89f37e099d6f7aad95e581be22fbdaaf2a91800ca9f7f10915a6c0eba5dbd2b51697b053b169cad74a99dabc8967f990195fd48
-  languageName: node
-  linkType: hard
-
 "language-subtag-registry@npm:~0.3.2":
   version: 0.3.21
   resolution: "language-subtag-registry@npm:0.3.21"
@@ -8159,7 +8152,6 @@ __metadata:
     mini-css-extract-plugin: ^2.7.2
     node-sass: ^8.0.0
     prettier: ^2.8.0
-    sass-loader: ^13.2.0
     style-loader: ^3.3.1
     webpack: ^5.75.0
     webpack-cli: ^5.0.1
@@ -8593,31 +8585,6 @@ resolve@^2.0.0-next.3:
   bin:
     sassgraph: bin/sassgraph
   checksum: b608ce3228c058f6c6a8f8a8898e90b86c23ac2026a7f3762de29f9f02123f46e3154859dd92590b5d59498af5a136c3f4d1418ac73da982ca6204444a3f848c
-  languageName: node
-  linkType: hard
-
-"sass-loader@npm:^13.2.0":
-  version: 13.2.0
-  resolution: "sass-loader@npm:13.2.0"
-  dependencies:
-    klona: ^2.0.4
-    neo-async: ^2.6.2
-  peerDependencies:
-    fibers: ">= 3.1.0"
-    node-sass: ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0
-    sass: ^1.3.0
-    sass-embedded: "*"
-    webpack: ^5.0.0
-  peerDependenciesMeta:
-    fibers:
-      optional: true
-    node-sass:
-      optional: true
-    sass:
-      optional: true
-    sass-embedded:
-      optional: true
-  checksum: 1a78bb421e50b12484f934d72a70105b963fcc6ba7e574fa13ffdb8deeb4496c6753cd7e67d358a71f734b8eb48e24ccb78183ecac0b732a58c3b8778e9a46e0
   languageName: node
   linkType: hard
 

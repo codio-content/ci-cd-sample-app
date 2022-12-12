@@ -61,7 +61,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["mini-css-extract-plugin", "virtual:17c474009c65fede3078eabf4bd624fea8927b064acac1f8b77127f85b13b9fbc7eeefea8a46bd50a14712808888ba7074453444591682655f9e9fab9ccd0e99#npm:2.7.2"],
             ["node-sass", "npm:8.0.0"],
             ["prettier", "npm:2.8.0"],
-            ["sass-loader", "virtual:17c474009c65fede3078eabf4bd624fea8927b064acac1f8b77127f85b13b9fbc7eeefea8a46bd50a14712808888ba7074453444591682655f9e9fab9ccd0e99#npm:13.2.0"],
             ["style-loader", "virtual:17c474009c65fede3078eabf4bd624fea8927b064acac1f8b77127f85b13b9fbc7eeefea8a46bd50a14712808888ba7074453444591682655f9e9fab9ccd0e99#npm:3.3.1"],
             ["webpack", "virtual:17c474009c65fede3078eabf4bd624fea8927b064acac1f8b77127f85b13b9fbc7eeefea8a46bd50a14712808888ba7074453444591682655f9e9fab9ccd0e99#npm:5.75.0"],
             ["webpack-cli", "virtual:17c474009c65fede3078eabf4bd624fea8927b064acac1f8b77127f85b13b9fbc7eeefea8a46bd50a14712808888ba7074453444591682655f9e9fab9ccd0e99#npm:5.0.1"],
@@ -8980,15 +8979,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
-      ["klona", [
-        ["npm:2.0.5", {
-          "packageLocation": "./.yarn/cache/klona-npm-2.0.5-5d403f2d77-0fa5dada3d.zip/node_modules/klona/",
-          "packageDependencies": [
-            ["klona", "npm:2.0.5"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
       ["language-subtag-registry", [
         ["npm:0.3.21", {
           "packageLocation": "./.yarn/cache/language-subtag-registry-npm-0.3.21-b2d9abe624-91bcb4717a.zip/node_modules/language-subtag-registry/",
@@ -10662,7 +10652,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["mini-css-extract-plugin", "virtual:17c474009c65fede3078eabf4bd624fea8927b064acac1f8b77127f85b13b9fbc7eeefea8a46bd50a14712808888ba7074453444591682655f9e9fab9ccd0e99#npm:2.7.2"],
             ["node-sass", "npm:8.0.0"],
             ["prettier", "npm:2.8.0"],
-            ["sass-loader", "virtual:17c474009c65fede3078eabf4bd624fea8927b064acac1f8b77127f85b13b9fbc7eeefea8a46bd50a14712808888ba7074453444591682655f9e9fab9ccd0e99#npm:13.2.0"],
             ["style-loader", "virtual:17c474009c65fede3078eabf4bd624fea8927b064acac1f8b77127f85b13b9fbc7eeefea8a46bd50a14712808888ba7074453444591682655f9e9fab9ccd0e99#npm:3.3.1"],
             ["webpack", "virtual:17c474009c65fede3078eabf4bd624fea8927b064acac1f8b77127f85b13b9fbc7eeefea8a46bd50a14712808888ba7074453444591682655f9e9fab9ccd0e99#npm:5.75.0"],
             ["webpack-cli", "virtual:17c474009c65fede3078eabf4bd624fea8927b064acac1f8b77127f85b13b9fbc7eeefea8a46bd50a14712808888ba7074453444591682655f9e9fab9ccd0e99#npm:5.0.1"],
@@ -11092,46 +11081,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["lodash", "npm:4.17.21"],
             ["scss-tokenizer", "npm:0.4.3"],
             ["yargs", "npm:17.6.2"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
-      ["sass-loader", [
-        ["npm:13.2.0", {
-          "packageLocation": "./.yarn/cache/sass-loader-npm-13.2.0-6421c5ff7b-1a78bb421e.zip/node_modules/sass-loader/",
-          "packageDependencies": [
-            ["sass-loader", "npm:13.2.0"]
-          ],
-          "linkType": "SOFT",
-        }],
-        ["virtual:17c474009c65fede3078eabf4bd624fea8927b064acac1f8b77127f85b13b9fbc7eeefea8a46bd50a14712808888ba7074453444591682655f9e9fab9ccd0e99#npm:13.2.0", {
-          "packageLocation": "./.yarn/$$virtual/sass-loader-virtual-bb7fffbb8a/0/cache/sass-loader-npm-13.2.0-6421c5ff7b-1a78bb421e.zip/node_modules/sass-loader/",
-          "packageDependencies": [
-            ["sass-loader", "virtual:17c474009c65fede3078eabf4bd624fea8927b064acac1f8b77127f85b13b9fbc7eeefea8a46bd50a14712808888ba7074453444591682655f9e9fab9ccd0e99#npm:13.2.0"],
-            ["@types/fibers", null],
-            ["@types/node-sass", null],
-            ["@types/sass", null],
-            ["@types/sass-embedded", null],
-            ["@types/webpack", null],
-            ["fibers", null],
-            ["klona", "npm:2.0.5"],
-            ["neo-async", "npm:2.6.2"],
-            ["node-sass", "npm:8.0.0"],
-            ["sass", null],
-            ["sass-embedded", null],
-            ["webpack", "virtual:17c474009c65fede3078eabf4bd624fea8927b064acac1f8b77127f85b13b9fbc7eeefea8a46bd50a14712808888ba7074453444591682655f9e9fab9ccd0e99#npm:5.75.0"]
-          ],
-          "packagePeers": [
-            "@types/fibers",
-            "@types/node-sass",
-            "@types/sass-embedded",
-            "@types/sass",
-            "@types/webpack",
-            "fibers",
-            "node-sass",
-            "sass-embedded",
-            "sass",
-            "webpack"
           ],
           "linkType": "HARD",
         }]
