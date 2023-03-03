@@ -9,7 +9,7 @@
     "check": "prettier --check src/**/*.js",
     "format": "prettier --write src/**/*.js",
     "lint": "eslint --ext src/**/*.js",
-    "deploy": "yarn build && git subtree push --prefix dist origin gh-pages"
+    "deploy": "npm run build && git subtree push --prefix dist origin gh-pages"
   },
   "devDependencies": {
     "@babel/core": "^7.20.5",
