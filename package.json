@@ -1,7 +1,7 @@
 {
   "name": "ci-cd-sample-app",
   "version": "1.0.0",
-  "main": "index.js",
+  "license": "UNLICENSED",
   "scripts": {
     "start": "webpack-dev-server --mode development --open --hot",
     "build": "webpack --mode production",
