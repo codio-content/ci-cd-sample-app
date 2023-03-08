@@ -10,8 +10,12 @@
 
 # Quality check
 
-```eslint src/app.js```
+```eslint src/*.js```
 
 # Run unit tests
 
 ```jest```
+
+# Deployment
+
+```parcel build src/index.html --public-url /ci-cd-sample-app-v1 && gh-pages -d dist```
