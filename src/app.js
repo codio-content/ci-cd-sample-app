@@ -13,7 +13,7 @@ let total
 
 const result = document.querySelector('#result')
 
-function calculate(num1, num2, operator) {
+export default function calculate(num1, num2, operator) {
   if (operator === '+') {
     total = parseFloat(num1) + parseFloat(num2)
   } else if (operator === '-') {

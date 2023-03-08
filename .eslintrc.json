@@ -1,0 +1,24 @@
+{
+  "env": {
+    "browser": true,
+    "es2020": true,
+    "node": true
+  },
+  "extends": [
+    "airbnb-base",
+    "plugin:import/errors",
+    "plugin:import/warnings"
+  ],
+  "parserOptions": {
+    "ecmaFeatures": {},
+    "ecmaVersion": 11,
+    "sourceType": "module"
+  },
+  "rules": {
+    "semi":  ["error", "never"],
+    "comma-dangle": ["off"],
+    "operator-linebreak": ["off"],
+    "import/no-extraneous-dependencies": ["error",  {"devDependencies": true}],
+    "max-len": ["error", { "code": 120 }]
+  }
+}
