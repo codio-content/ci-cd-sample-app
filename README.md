@@ -1,4 +1,4 @@
-# ci-cd-sample-app-v1
+# ci-cd-sample-app-v2
 
 # Release build
 
